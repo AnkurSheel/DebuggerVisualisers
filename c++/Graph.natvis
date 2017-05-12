@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="Common::cGraph">
+    <DisplayString>{m_vertices}</DisplayString>
+    <Expand HideRawView="1">
+      <Item Name="Directed">m_isDirected</Item>
+      <ExpandedItem>m_vertices,view(simple)na</ExpandedItem>
+    </Expand>
+  </Type>
+
+  <Type Name="Common::stGraphNode">
+    <DisplayString>{{Vertex: {m_data}, Neighbours: {m_neighbours}</DisplayString>
+    <Expand HideRawView="1">
+      <Item Name="Vertex">m_data</Item>
+      <ExpandedItem>m_neighbours,view(simple)na</ExpandedItem>
+    </Expand>
+  </Type>
+</AutoVisualizer>
