@@ -8,5 +8,13 @@
             <Item Name="[state]">_Mystate</Item>
         </Expand>
     </Type>
+    <Type Name="std::basic_ostream&lt;char,*&gt;">
+        <DisplayString>{_Mystrbuf->_Gfirst, s}</DisplayString>
+        <StringView>_Mystrbuf->_Gfirst</StringView>
+        <Expand>
+            <Item Name="Contents">_Mystrbuf->_Gfirst</Item>
+            <Item Name="[state]">_Mystate</Item>
+        </Expand>
+    </Type>
 </AutoVisualizer>
 
