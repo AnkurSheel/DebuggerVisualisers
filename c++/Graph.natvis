@@ -15,4 +15,12 @@
       <ExpandedItem>m_neighbours,view(simple)na</ExpandedItem>
     </Expand>
   </Type>
+
+  <Type Name="Common::stGraphNode*">
+        <DisplayString>{{Vertex: {m_data}, Neighbours: {m_neighbours}</DisplayString>
+        <Expand HideRawView="1">
+            <Item Name="Vertex">m_data</Item>
+            <ExpandedItem>m_neighbours,view(simple)na</ExpandedItem>
+        </Expand>
+  </Type>
 </AutoVisualizer>
