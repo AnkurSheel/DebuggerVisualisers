@@ -3,6 +3,7 @@
     <Type Name="Common::cTreeNode&lt;*&gt;">
         <DisplayString>{m_data}</DisplayString>
         <Expand HideRawView="1">
+            <Item Name="Parent">m_pParent,na</Item>
             <ExpandedItem>m_children,view(simple)na</ExpandedItem>
         </Expand>
     </Type>
