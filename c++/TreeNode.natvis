@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
     <Type Name="Common::cTreeNode&lt;*&gt;">
-        <DisplayString>{m_data}</DisplayString>
+        <DisplayString>{m_data,na}</DisplayString>
         <Expand HideRawView="1">
             <Item Name="Parent">m_pParent,na</Item>
+            <Item Name="Data">m_data,na</Item>
             <ExpandedItem>m_children,view(simple)na</ExpandedItem>
         </Expand>
     </Type>
